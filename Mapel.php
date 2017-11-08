@@ -12,15 +12,15 @@ class Mapel extends Guru  {
         return $this->mapel;
     	}
 
-    public function idMapel($idmapel) 
+    	public function idMapel($idmapel) 
 	{
         $this->idmapel = $idmapel;
-    }
+   	}
 
 	public function tampilIdmapel() 
 	{
         return $this->idmapel;
-    }
+    	}
 
 
 }
