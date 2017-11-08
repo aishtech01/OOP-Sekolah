@@ -1,7 +1,7 @@
 <?php
-include 'Mapel.php';
+include 'Siswa.php';
 
-class Kelas extends Mapel  {
+class Kelas extends Siswa  {
 	public function namaKelas($kelas) 
 	{
         $this->kelas = $kelas;
@@ -10,7 +10,7 @@ class Kelas extends Mapel  {
 	public function tampilKelas() 
 	{
         return $this->kelas;
-	}
+    	}
 
     	public function idKelas($idkelas) 
 	{
