@@ -11,4 +11,15 @@ class Kelas extends Mapel  {
 	{
         return $this->kelas;
     }
+
+    public function idKelas($idkelas) 
+	{
+        $this->idkelas = $idkelas;
+    }
+
+	public function tampilIdkelas() 
+	{
+        return $this->idkelas;
+    }
+
 }
