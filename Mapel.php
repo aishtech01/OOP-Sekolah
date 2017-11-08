@@ -2,11 +2,13 @@
 include 'Guru.php';
 
 class Mapel extends Guru  {
-	public function namaMapel($mapel) {
+	public function namaMapel($mapel) 
+	{
         $this->mapel = $mapel;
     }
-    
-	public function tampilMapel() {
+
+	public function tampilMapel() 
+	{
         return $this->mapel;
     }
 

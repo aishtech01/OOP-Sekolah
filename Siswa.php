@@ -3,11 +3,13 @@ include 'Sekolah.php';
 
 class Siswa  {
 public $nsiswa;
-	public function namaSiswa($nsiswa) {
+	public function namaSiswa($nsiswa) 
+	{
         $this->nsiswa = $nsiswa;
     }
-    
-	public function tampilNamasiswa() {
+
+	public function tampilNamasiswa() 
+	{
         return $this->nsiswa;
     }
 

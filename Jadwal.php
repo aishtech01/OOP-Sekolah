@@ -2,26 +2,14 @@
 include 'Kelas.php';
 
 class Jadwal extends Kelas {
-	public function hari($hari)
+	public function namaHari($hari) 
 	{
-		return $hari;
-	}
-
-	public function guru($guru)
+        $this->hari = $hari;
+    }
+    
+	public function tampilHari() 
 	{
-		return $guru;
-	}
-
-	public function kelas($kelas)
-	{
-		return $kelas;
-	}
-
-	
-
-
-	
-	
-
-
+        return $this->hari;
+    }
 }
+	
