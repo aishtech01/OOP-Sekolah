@@ -6,13 +6,14 @@ public $nsiswa;
 	public function namaSiswa($nsiswa) 
 	{
         $this->nsiswa = $nsiswa;
-    }
+    	}
 
 	public function tampilNamasiswa() 
 	{
         return $this->nsiswa;
-    }
+    	}
 
+<<<<<<< HEAD
     public function nisSiswa($nissiswa) 
 	{
         $this->nissiswa = $nissiswa;
@@ -37,3 +38,6 @@ public $nsiswa;
 
 
 }
+=======
+}
+>>>>>>> 368fee42e9c17d8a300d39e1ca8afcb69adf01de
