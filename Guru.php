@@ -1,7 +1,7 @@
 <?php
-include 'Siswa.php';
+include 'Mapel.php';
 
-class Guru extends Siswa  {
+class Guru extends Mapel  {
 	
     public function namaGuru($nama) 
     {
