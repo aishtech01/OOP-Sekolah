@@ -13,31 +13,24 @@ public $nsiswa;
         return $this->nsiswa;
     	}
 
-<<<<<<< HEAD
-    public function nisSiswa($nissiswa) 
+    	public function nisSiswa($nissiswa) 
 	{
         $this->nissiswa = $nissiswa;
-    }
+   	}
 
 	public function tampilNissiswa() 
 	{
         return $this->nissiswa;
-    }
+    	}
 
-    public function alamatSiswa($alamat) 
+    	public function alamatSiswa($alamat) 
 	{
         $this->alamat = $alamat;
-    }
+    	}
 
 	public function tampilAlamatsiswa() 
 	{
         return $this->alamat;
-    }
-
-
-
+    	}
 
 }
-=======
-}
->>>>>>> 368fee42e9c17d8a300d39e1ca8afcb69adf01de
