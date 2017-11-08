@@ -1,8 +1,7 @@
 <?php
 
 Class Sekolah  {
-	public function namasekolah($nama = "SMK Teknik Muh")
-	{
-		echo " Nama Sekolah : " . $nama;
-	}
+	public function __construct($namasekolah="SMK Teknik Muh") {
+      	return $namasekolah;
+    }
 }

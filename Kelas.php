@@ -2,13 +2,13 @@
 include 'Mapel.php';
 
 class Kelas extends Mapel  {
-	public function idkelas ($id="XT")
+	public function idkelas ($id)
 	{
-		echo "ID Kelas : " . $id;
+		return $id;
 	}
 
-	public function namakelas ($kelas="X TKJ")
+	public function namakelas ($kelas)
 	{
-		echo "Kelas : ".$kelas; 
+		return $kelas; 
 	}
 }

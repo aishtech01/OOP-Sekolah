@@ -2,8 +2,10 @@
 include 'Jadwal.php';
 
 $jadwal1 = new Jadwal();
-echo $jadwal1->hari()."<br>";
-echo $jadwal1->namamapel()."<br>";
-echo $jadwal1->namaguru()."<br>";
-echo $jadwal1->namakelas()."<br>";
-echo $jadwal1->namasiswa()."<br>";
+echo "Jadwal : ". $jadwal1->hari("Senin")."<br>";
+echo "Mata Pelajaran : ". $jadwal1->namamapel("Seni Budaya")."<br>";
+echo "Nama Guru : " . $jadwal1->namaguru("Deni Sudiana, S.Pd.I")."<br>";
+echo "Kelas : " . $jadwal1->namakelas("X TKJ")."<br>";
+echo "========Daftar Siswa=======<br>";
+echo $jadwal1->namasiswa("Yunita")."<br>";
+echo $jadwal1->namasiswa("Rina")."<br>";

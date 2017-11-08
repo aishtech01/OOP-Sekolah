@@ -2,19 +2,19 @@
 include 'Guru.php';
 
 class Mapel extends Guru  {
-	public function idmapel($id="03")
+	public function idmapel($id)
 	{
-		echo " ID Mapel : " .$id;
+		return $id;
 	}
 
-	public function namamapel($nama="Seni Budaya")
+	public function namamapel($nama)
 	{
-		echo " Mata Pelajaran : ".$nama;
+		return $nama;
 	}
 
-	public function kelas($kelas="X TKJ")
+	public function kelas($kelas)
 	{
-		echo " Kelas : " . $kelas;
+		return $kelas;
 	}
 
 

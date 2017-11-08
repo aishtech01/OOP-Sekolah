@@ -2,28 +2,28 @@
 include 'Siswa.php';
 
 class Guru extends Siswa  {
-	public function namaguru($nama="Deni Sudiana,S .Pd.")
+	public function namaguru($nama)
 	{
-		echo " Nama Guru : ".$nama;
+		return $nama;
 	}
 
-	public function nip($nip="723232")
+	public function nip($nip)
 	{
-		echo "NIP : " . $nip;
+		return $nip;
 	}
 
-	public function email($email="denisudiana@gmail.com")
+	public function email($email)
 	{
-		echo "Email : " . $email;
+		return $email;
 	}
 
-	public function nohp($nohp="0828219212112")
+	public function nohp($nohp)
 	{
-		echo "Nohp : ".$nohp;
+		return $nohp;
 	}
 
-	public function mapel($mapel="Seni Budaya")
+	public function mapel($mapel)
 	{
-		echo "Mata Pelajaran : ". $mapel;
+		return $mapel;
 	}
 }

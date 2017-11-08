@@ -2,18 +2,18 @@
 include 'Kelas.php';
 
 class Jadwal extends Kelas {
-	public function hari($hari="Senin")
+	public function hari($hari)
 	{
-		echo "Jadwal Hari : ".$hari;
+		return $hari;
 	}
 
-	public function guru($guru="Deni Sudiana")
+	public function guru($guru)
 	{
-		echo "Nama Guru : " . $guru;
+		return $guru;
 	}
 
-	public function kelas($kelas="X TKJ")
+	public function kelas($kelas)
 	{
-		echo "Kelas : " . $kelas;
+		return $kelas;
 	}
 }

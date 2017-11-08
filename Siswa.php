@@ -2,29 +2,29 @@
 include 'Sekolah.php';
 
 class Siswa  {
-	public function namasiswa($nama="Yunita")
+	public function namasiswa($nama)
 	{
-		echo "Nama Siswa : " . $nama;
+		return $nama;
 	}
 
-	public function nis($nis="16171001")
+	public function nis($nis)
 	{
-		echo "NIS : " . $nis;
+		return $nis;
 	}
 
-	public function email($email="nitayuni@gmail.com")
+	public function email($email)
 	{
-		echo "Email : " . $email;
+		return $email;
 	}
 
-	public function nohp($nohp="0818723462342")
+	public function nohp($nohp)
 	{
-		echo "Nohp : ".$nohp;
+		return $nohp;
 	}
 
-	public function kelas($kelas="X TKJ")
+	public function kelas($kelas)
 	{
-		ECHO "Kelas : ". $kelas;
+		return $kelas;
 	}
 
 
