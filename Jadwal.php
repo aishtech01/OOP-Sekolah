@@ -16,4 +16,12 @@ class Jadwal extends Kelas {
 	{
 		return $kelas;
 	}
+
+	
+
+
+	
+	
+
+
 }

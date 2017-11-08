@@ -2,28 +2,37 @@
 include 'Siswa.php';
 
 class Guru extends Siswa  {
-	public function namaguru($nama)
-	{
-		return $nama;
-	}
+	
+	public function namaGuru($nama) {
+        $this->nama = $nama;
+    }
+    public function setNip($nip){
+        $this->nip = $nip;
+    }
+    public function setEmail($email){
+        $this->email=$email;
+    }
+    public function setNohp($nohp){
+        $this->nohp=$nohp;
+    }
 
-	public function nip($nip)
-	{
-		return $nip;
-	}
+  
 
-	public function email($email)
-	{
-		return $email;
-	}
+    public function tampilNamaguru() {
+        return $this->nama;
+    }
 
-	public function nohp($nohp)
-	{
-		return $nohp;
-	}
+    public function getNip() {
+        return $this->nip;
+    }
 
-	public function mapel($mapel)
-	{
-		return $mapel;
-	}
+    public function getEmail() {
+        return $this->email;
+    }
+
+    public function getNohp() {
+        return $this->nohp;
+    }
+
+   
 }
