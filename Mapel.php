@@ -1,26 +1,26 @@
 <?php
-include 'Guru.php';
+include 'Kelas.php';
 
-class Mapel extends Guru  {
+class Mapel extends Kelas {
 	public function namaMapel($mapel) 
 	{
         $this->mapel = $mapel;
-    	}
+    }
 
 	public function tampilMapel() 
 	{
         return $this->mapel;
-    	}
+    }
 
-    	public function idMapel($idmapel) 
+    public function idMapel($idmapel) 
 	{
         $this->idmapel = $idmapel;
-   	}
+    }
 
 	public function tampilIdmapel() 
 	{
         return $this->idmapel;
-    	}
+    }
 
 
 }
